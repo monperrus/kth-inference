@@ -11,10 +11,12 @@ pip install .
 
 2. Start the vLLM server:
 ```bash
-sh serve.sh
+ls serve*sh
+# example
+sh serve-QwQ-32B-AWQ.sh
 ```
 
-3. In a separate terminal, start the chat interface:
+3. In a separate terminal, start the chat interface (configure the correct model name):
 ```bash
 uv run chat.py
 ```
